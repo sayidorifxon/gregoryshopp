@@ -1,0 +1,68 @@
+.editoril{
+    height: 680px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 205px;
+    position: relative;
+    
+}
+.message{
+    padding: 68px 0 58px;
+    clip-path: polygon(5% 0, 95% 0, 100% 10%, 100% 90%, 95% 100%, 5% 100%, 0 90%, 0 10%);
+    width: 668px;
+    height: 291px;
+    background-color: #e8ccba;
+    margin:0 auto;
+    text-align: center;
+}
+.message h3{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 189%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1d1d1d;
+max-width: 433px;
+width: 100%;
+margin: 0 auto 48px;
+}
+.message p{
+    max-width: 433px;
+    width: 100%;
+    margin: 0 auto 7px;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1d1d1d;
+border-bottom: 1px solid black;
+
+}
+.editoril a{
+    clip-path: polygon(17% 0, 81% 2%, 100% 50%, 84% 98%, 15% 100%, 0 49%);
+    margin: 30px auto;
+    text-align: center;
+    display: block;
+    padding: 13px 0 11px;
+    width: 253px;
+height: 44px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #f3e7e0;
+background-color: black;
+position: absolute;
+bottom: 132px;
+z-index: 5;
+left: 625px;
+}

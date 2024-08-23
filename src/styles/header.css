@@ -1,0 +1,47 @@
+.header{
+padding: 4px 0;
+position: absolute;
+left: 0;
+right: 0;
+max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+.header__wrapper nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+.otherheader ul li {
+    color: black;
+}
+.otherheader{
+padding: 4px 0;
+    padding: 0 15px ;
+    background-color: #F3E7E0; 
+}
+.header_container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.otherheader img{
+    content: url(../img/Logodark2.png);
+}

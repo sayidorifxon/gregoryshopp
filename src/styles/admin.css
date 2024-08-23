@@ -1,0 +1,51 @@
+.adminheader{
+    width: 800px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin-bottom: 100px;
+    
+}
+.admincatwrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+    background-color: yellow;
+}
+.admincatwrapper form{
+    background-color: blue;
+}
+.updateform, .update_product{
+    display: none;
+}
+.open{
+    display: block;
+}
+.wrapper{
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.card{
+    padding: 10px;
+    background-color: green;
+    margin: 10px;
+}
+.selected{
+    background-color: rgb(4, 52, 4);
+}
+input{
+    margin: 10px;
+}
+.plpwrapper{
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.updateplp{
+    display: none;
+}

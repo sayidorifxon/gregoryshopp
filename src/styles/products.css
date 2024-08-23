@@ -1,0 +1,91 @@
+.products{
+   background-color: #9c7168;
+   padding: 60px;
+   height: 700px;
+}
+
+.products h2{
+    max-width: 668px;
+    width: 100%;
+    margin:  0 auto;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 180%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #1d1d1d;
+}
+.products__grid{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    
+}
+.products__card{
+    width: 250px;
+    height: 386px;
+    background-image: url("../img/Union.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.products__card img{
+    margin-top: 30px;
+    height: 150px;
+    margin-bottom: 100px;
+    
+}
+.products__card:nth-of-type(1){
+    position: absolute;
+    top: -70px;
+    left: 0;
+    text-align: center;
+
+}
+
+.products__card:nth-of-type(2){
+    position: absolute;
+    top: 10px;
+    left: 305px;
+    text-align: center;
+
+}
+.products__card:nth-of-type(3){
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    text-align: center;
+
+}
+.products__card:nth-of-type(4){
+    position: absolute;
+    top: -70px;
+    right: 0;
+    text-align: center;
+
+}
+.products a{
+    clip-path: polygon(17% 0, 81% 2%, 100% 50%, 84% 98%, 15% 100%, 0 49%);
+    width: 253px;
+height: 44px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-align: center;
+color: #f3e7e0;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 500px auto 0;
+}
+
