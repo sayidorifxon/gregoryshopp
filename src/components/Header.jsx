@@ -19,7 +19,7 @@ function Header() {
             <img src={rasm} alt="" />
             <ul>
               <li>Search</li>
-              <li>Account</li>
+              <li><NavLink to="/login">Account</NavLink></li>
               <li>Cart</li>
             </ul>
           </nav>
