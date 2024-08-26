@@ -15,7 +15,7 @@ function Hero() {
     <div className='hero' style={{backgroundImage:`url(${hero?.imageLink})`}}>
       <div className="container">
         <h1>{hero?.title}</h1>
-        <a href="#!">Shop Collection</a>
+        <a href="/shop">Shop Collection</a>
         
       </div>
     </div>
